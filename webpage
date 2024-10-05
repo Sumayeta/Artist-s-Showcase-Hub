@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Artist Showcase Hub</title>
-   <link rel="stylesheet" href="stylee.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vertical Margin Example</title>
+   <style>
+       body {
+           margin: 0; /* Remove default body margin */
+       }
+
+
+       .container {
+           margin-left: 50px; /* Adjust this value for the desired margin width */
+           padding: 20px; /* Optional: adds padding inside the container */
+           background-color: #f0f0f0; /* Optional: background color for visibility */
+       }
+   </style>
 </head>
 <body>
-
-    <section class="hero">
-        <div class="heading">
-            
-                    <h1>About Us</h1>
-
-                </div>
-                <div class="container">
-                    <div class="hero-content">
-                    <p>The purpose of creating a website where local artists can connect with art lovers to showcase and sell their artwork is to provide a dedicated platform that supports and promotes local artistic talent . By prioritinging local artists, the website aims to foster a sense of community and appreciation for the unique perspectives and style emarging from the local area. Additionally, featuring international artists will enrich the platform , offering diverse artistic expressions and broadening the horigons of art lovers. This inclusive approach not only helps local artists gain visibility and financial support but also cultivates a vibrant, interconnceted global art community. Ultimately, the website serves as a bridge between artists and art enthusiasts, celebrating creativity and facilitating meaningful exchanges </p>
-                    <button class="cta-button">Learn More</button>
-
-                </div>
-                <!-- <div class="hero-img">
-                    <img src="image/bg.png.png">
-                </div> -->
-
-            </div>
-        </div>
-
-
-   </section>
+   <div class="container">
+       <h1>My Web Page</h1>
+       <p>This is some content on the page. The left margin is wide due to the CSS styles applied.</p>
+   </div>
 </body>
 </html>
-####CSSS
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+###css
+body{
+ background-color: bisque;
 }
-.hero{
-   
-    background-color: #fffeba;
+h1{background-color: rgb(165, 126, 55); font-size: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+
+
+
+.contact{
+ width: 80%;
+ border: 4px solid black;
+ margin: 20px auto;
+ padding: 5%;
+ text-align: center;
+}
+.contact h2{
+ font-weight: bold;
+ font-size: 35px;
+ margin-bottom: 0;
+}
+.contact form{
+ border: 4px solid black;
+ margin: 25px;
+}
+
+
+.child_form{
+ width: 100%;
+ margin: 15px;
+ text-align: center;
+}
+.child_form label{
+ display: block;
+ margin-bottom: 5px;
+
 
 }
-.heading h1{
-    color: #181717;
-   font-size: 55px;
-   text-align: center;
-   margin-top: 50px;
+.child_form input{
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 10px 3%;
+ width: 34%;
 }
-.container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 90%;
-   margin: 65px auto;
+.child_form input[type='button']{
+ width: 200px;
+ background-color: orange;
+ border: 1px solid orange;
+ color: black;
+ cursor: pointer;
 }
-.hero-content{
-    flex: 1;
-    width: 600px;
-    margin: 0px 25px;
+.child_form input[type='button']:hover{
+ width: 200px;
+ background-color: black;
+ border: 1px solid black;
+ color: #fff;
 }
-.hero-content button:hover{
-    background-color: #ffb547;
-    transform: scale(1.1);
+.child_form:last-child {
+ margin-bottom: 0px;
 }
+
+
+              
+ 
