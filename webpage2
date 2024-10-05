@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Artists-Artist showcase Hub</title>
+    <style type="text/css">
+        *{
+            text-decoration: none;
+        }
+        .navbar{
+            background: rgb(206, 129, 94); calibri; padding-right: 15px; padding-left: 15px;
+        .navdiv{
+            display: flex; align-items: center;
+        }  
+        .logo a{
+            font-size: 35px; font-weight: 600; color:brown;
+        }
+        li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color:black; font-weight: bold;
+        }  
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Artist Profile</a></div>
+        </div>
+        <ul>
+            <button><a href="#">Home</a></button>
+            <button><a href="#">Signin</a></button><br><br>
+            <img src="me (1).jpeg" width="150" height="200"><br>
+            <li><a href="#">Joshua Smith</a></li><br><br>
+            <img src="me (2).jpeg" width="150" height="200"><br>
+            <li><a href="#">Camilia Colins</a></li><br><br>
+            <img src="me (3).jpeg" width="150" height="200"><br>
+            <li><a href="#">Jack Will</a></li><br><br>
+            <img src="me (5).jpeg" width="128" height="200"><br>
+            <li><a href="#">Lisa Hayat</a></li><br><br>
+            <img src="me (6).jpeg" width="150" height="200"><br>
+            <li><a href="#">Robert ben</a></li><br><br>
+        </ul>
+</body>
+</html>
+
 
