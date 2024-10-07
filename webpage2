@@ -2,26 +2,6 @@
 <html lang="en">
 <head>
     <title>Artists-Artist showcase Hub</title>
-    <style type="text/css">
-        *{
-            text-decoration: none;
-        }
-        .navbar{
-            background: rgb(206, 129, 94); calibri; padding-right: 15px; padding-left: 15px;
-        .navdiv{
-            display: flex; align-items: center;
-        }  
-        .logo a{
-            font-size: 35px; font-weight: 600; color:brown;
-        }
-        li{
-            list-style: none; display: inline-block;
-        }
-        li a{
-            color:black; font-weight: bold;
-        }  
-        }
-    </style>
 </head>
 <body>
 
@@ -46,5 +26,3 @@
         </ul>
 </body>
 </html>
-
-
